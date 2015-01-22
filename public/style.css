@@ -1,0 +1,17 @@
+body{
+  background-color:grey;
+}
+
+p{
+  color:black;
+}
+
+a, u {
+  text-decoration: none;
+  text-align: center;
+}
+li {
+  list-style:none;
+}
+
+

@@ -1,0 +1,14 @@
+
+<h1>DO YOUR mortgage calculation</h1>
+<form action="/mortgage_calc" method="get">
+ p : <input type="text" name="principal">
+ i : <input type="text" name="interest">
+ no_of_payments<input type ="text" name="no_of_payments">
+  <button>Calculate!</button>
+
+</form>
+
+<% if @mortgage_payment %>
+<h1>Your monthly payment : <%=@mortgage_payment%></h1>
+<% end %>
+

@@ -1,0 +1,16 @@
+<h1>IMPERIAL BMI CALCULATION</h1>
+<form action="/bmi" method="get">
+ weight: <input type="text" name="weight">
+  height: <input type="text" name="height">
+  <button>Calculate!</button>
+
+</form>
+
+<% if@imperial_bmi %>
+  <h1>Your bmi in imperial is: <%=@imperial_bmi%></h1>
+<%end%>
+
+
+
+
+

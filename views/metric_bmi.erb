@@ -1,0 +1,13 @@
+<h1>METRIC BMI CALCULATION</h1>
+<form action="/metric_bmi" method="get">
+ weight: <input type="text" name="weight">
+  height: <input type="text" name="height">
+  <button>Calculate!</button>
+
+</form>
+<% if @metric_bmi %>
+ <h1> Your bmi in metric is: <%=@metric_bmi%></h1>
+
+<%end%>
+
+

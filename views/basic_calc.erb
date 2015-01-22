@@ -1,0 +1,11 @@
+<h1>DO YOUR BASIC CALCULATION HERE</h1>
+<form action="/basic_calc" method="get">
+  first: <input type="text" name="first">
+  operator: <input type="text" name="operator">
+  second: <input type="text" name="second">
+  <button>Calculate!</button>
+</form>
+<!-- Embedding ruby code in html -->
+<% if @result %>
+<p>The result of your basic calculation is:<%= @result %></p> 
+<% end %>
